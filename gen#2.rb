@@ -17,6 +17,7 @@ with_fx :eq, low_shelf: -1, high_shelf: -1, high_shelf_note: 80, high_q: 0.5 do
       
       live_loop :kick do
         sample :bd_808, rate: 0.5
+        #change the sample after some time 
         sleep 2
       end
     end
